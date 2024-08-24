@@ -1,4 +1,4 @@
-{{- /*gotype:github.com/fragdance1/prisma-client-go/generator.Root*/ -}}
+{{- /*gotype:github.com/fragdanceone/prisma-client-go/generator.Root*/ -}}
 
 func NewMock() (*PrismaClient, *Mock, func(t *testing.T)) {
 	expectations := new([]mock.Expectation)

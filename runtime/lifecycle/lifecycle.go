@@ -1,7 +1,7 @@
 package lifecycle
 
 import (
-	"github.com/fragdance1/prisma-client-go/engine"
+	"github.com/fragdanceone/prisma-client-go/engine"
 )
 
 type Lifecycle struct {

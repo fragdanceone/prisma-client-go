@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/fragdance1/prisma-client-go/test/cmd"
-	"github.com/fragdance1/prisma-client-go/test/setup"
+	"github.com/fragdanceone/prisma-client-go/test/cmd"
+	"github.com/fragdanceone/prisma-client-go/test/setup"
 )
 
 var SQLite = &sqLite{}

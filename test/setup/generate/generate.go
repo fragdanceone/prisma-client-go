@@ -37,7 +37,7 @@ func generate() {
 
 	// prefetch the binaries first
 	// generating in this folder makes sure binaries are unpacked
-	cmd := exec.Command("go", "run", "github.com/fragdance1/prisma-client-go", "generate")
+	cmd := exec.Command("go", "run", "github.com/fragdanceone/prisma-client-go", "generate")
 	cmd.Stderr = os.Stderr
 	cmd.Stdout = os.Stdout
 	if err := cmd.Run(); err != nil {
@@ -63,7 +63,7 @@ func generate() {
 		go func(file string) {
 			defer wg.Done()
 
-			genCmd := exec.Command("go", "run", "github.com/fragdance1/prisma-client-go", "generate")
+			genCmd := exec.Command("go", "run", "github.com/fragdanceone/prisma-client-go", "generate")
 			genCmd.Dir = filepath.Dir(file)
 			genCmd.Stderr = os.Stderr
 			genCmd.Stdout = os.Stdout

@@ -4,8 +4,8 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/fragdance1/prisma-client-go/engine"
-	"github.com/fragdance1/prisma-client-go/runtime/builder"
+	"github.com/fragdanceone/prisma-client-go/engine"
+	"github.com/fragdanceone/prisma-client-go/runtime/builder"
 )
 
 type TX struct {

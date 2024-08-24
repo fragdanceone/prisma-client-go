@@ -6,9 +6,9 @@ import (
 	"path"
 	"time"
 
-	"github.com/fragdance1/prisma-client-go/binaries"
-	"github.com/fragdance1/prisma-client-go/binaries/platform"
-	"github.com/fragdance1/prisma-client-go/logger"
+	"github.com/fragdanceone/prisma-client-go/binaries"
+	"github.com/fragdanceone/prisma-client-go/binaries/platform"
+	"github.com/fragdanceone/prisma-client-go/logger"
 )
 
 // TODO check checksum after expanding file

@@ -1,4 +1,4 @@
-module github.com/fragdance1/prisma-client-go
+module github.com/fragdanceone/prisma-client-go
 
 go 1.18
 

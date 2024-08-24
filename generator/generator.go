@@ -3,9 +3,9 @@ package generator
 import (
 	"os"
 
-	"github.com/fragdance1/prisma-client-go/generator/ast/dmmf"
-	"github.com/fragdance1/prisma-client-go/generator/ast/transform"
-	"github.com/fragdance1/prisma-client-go/generator/types"
+	"github.com/fragdanceone/prisma-client-go/generator/ast/dmmf"
+	"github.com/fragdanceone/prisma-client-go/generator/ast/transform"
+	"github.com/fragdanceone/prisma-client-go/generator/types"
 )
 
 // Root describes the generator output root.

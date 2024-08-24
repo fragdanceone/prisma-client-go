@@ -5,6 +5,6 @@
 package generator
 
 import (
-	_ "github.com/fragdance1/prisma-client-go/generator/templates"
-	_ "github.com/fragdance1/prisma-client-go/generator/templates/actions"
+	_ "github.com/fragdanceone/prisma-client-go/generator/templates"
+	_ "github.com/fragdanceone/prisma-client-go/generator/templates/actions"
 )

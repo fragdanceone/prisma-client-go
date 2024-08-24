@@ -10,15 +10,15 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/fragdance1/prisma-client-go/binaries/platform"
-	"github.com/fragdance1/prisma-client-go/logger"
+	"github.com/fragdanceone/prisma-client-go/binaries/platform"
+	"github.com/fragdanceone/prisma-client-go/logger"
 )
 
 // PrismaVersion is a hardcoded version of the Prisma CLI.
 const PrismaVersion = "3.13.0"
 
 // EngineVersion is a hardcoded version of the Prisma Engine.
-// The versions can be found under https://github.com/fragdance1/prisma-engines/commits/master
+// The versions can be found under https://github.com/fragdanceone/prisma-engines/commits/master
 const EngineVersion = "efdf9b1183dddfd4258cd181a72125755215ab7b"
 
 // PrismaURL points to an S3 bucket URL where the CLI binaries are stored.

@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/fragdance1/prisma-client-go/logger"
-	"github.com/fragdance1/prisma-client-go/runtime/types"
+	"github.com/fragdanceone/prisma-client-go/logger"
+	"github.com/fragdanceone/prisma-client-go/runtime/types"
 )
 
 var internalUpdateNotFoundMessage = "Error occurred during query execution:\nInterpretationError(\"Error for binding '0'\", Some(QueryGraphBuilderError(RecordNotFound(\"Record to update not found.\"))))"

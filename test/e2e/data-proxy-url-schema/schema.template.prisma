@@ -7,7 +7,7 @@ datasource db {
 }
 
 generator db {
-  provider         = "go run github.com/fragdance1/prisma-client-go"
+  provider         = "go run github.com/fragdanceone/prisma-client-go"
   engineType       = "dataproxy"
   output           = "."
   disableGitignore = true

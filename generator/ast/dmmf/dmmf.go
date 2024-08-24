@@ -1,7 +1,7 @@
 package dmmf
 
 import (
-	"github.com/fragdance1/prisma-client-go/generator/types"
+	"github.com/fragdanceone/prisma-client-go/generator/types"
 )
 
 // FieldKind describes a scalar, object or enum.

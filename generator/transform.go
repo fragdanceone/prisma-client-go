@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/fragdance1/prisma-client-go/generator/ast/transform"
+	"github.com/fragdanceone/prisma-client-go/generator/ast/transform"
 )
 
 // Transform builds the AST from the flat DMMF so it can be used properly in templates

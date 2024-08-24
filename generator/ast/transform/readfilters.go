@@ -3,8 +3,8 @@ package transform
 import (
 	"strings"
 
-	"github.com/fragdance1/prisma-client-go/generator/ast/dmmf"
-	"github.com/fragdance1/prisma-client-go/generator/types"
+	"github.com/fragdanceone/prisma-client-go/generator/ast/dmmf"
+	"github.com/fragdanceone/prisma-client-go/generator/types"
 )
 
 const list = "List"

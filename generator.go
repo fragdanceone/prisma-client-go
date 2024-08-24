@@ -10,9 +10,9 @@ import (
 	"os"
 	"path"
 
-	"github.com/fragdance1/prisma-client-go/generator"
-	"github.com/fragdance1/prisma-client-go/jsonrpc"
-	"github.com/fragdance1/prisma-client-go/logger"
+	"github.com/fragdanceone/prisma-client-go/generator"
+	"github.com/fragdanceone/prisma-client-go/jsonrpc"
+	"github.com/fragdanceone/prisma-client-go/logger"
 )
 
 var writeDebugFile = os.Getenv("PRISMA_CLIENT_GO_WRITE_DMMF_FILE") != ""

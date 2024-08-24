@@ -6,8 +6,8 @@ import (
 	"os/signal"
 	"syscall"
 
-	"github.com/fragdance1/prisma-client-go/cli"
-	"github.com/fragdance1/prisma-client-go/logger"
+	"github.com/fragdanceone/prisma-client-go/cli"
+	"github.com/fragdanceone/prisma-client-go/logger"
 )
 
 func main() {
@@ -39,9 +39,9 @@ func main() {
 	// if this wasn't actually invoked by the prisma generator, print a warning and exit
 	if os.Getenv("PRISMA_GENERATOR_INVOCATION") == "" {
 		logger.Info.Printf("This command is only meant to be invoked internally. Please run the following instead:")
-		logger.Info.Printf("`go run github.com/fragdance1/prisma-client-go <command>`")
+		logger.Info.Printf("`go run github.com/fragdanceone/prisma-client-go <command>`")
 		logger.Info.Printf("e.g.")
-		logger.Info.Printf("`go run github.com/fragdance1/prisma-client-go generate`")
+		logger.Info.Printf("`go run github.com/fragdanceone/prisma-client-go generate`")
 		os.Exit(1)
 	}
 

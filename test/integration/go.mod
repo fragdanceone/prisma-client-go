@@ -2,12 +2,12 @@ module integration
 
 go 1.16
 
-replace github.com/fragdance1/prisma-client-go => ../../
+replace github.com/fragdanceone/prisma-client-go => ../../
 
 require (
 	github.com/iancoleman/strcase v0.0.0-20190422225806-e506e3ef7365
 	github.com/joho/godotenv v1.4.0
-	github.com/fragdance1/prisma-client-go v0.0.0-00010101000000-000000000000
+	github.com/fragdanceone/prisma-client-go v0.0.0-00010101000000-000000000000
 	github.com/shopspring/decimal v1.3.1
 	github.com/takuoki/gocase v1.0.0
 )

@@ -1,4 +1,4 @@
-{{- /*gotype:github.com/fragdance1/prisma-client-go/generator.Root*/ -}}
+{{- /*gotype:github.com/fragdanceone/prisma-client-go/generator.Root*/ -}}
 
 {{ range $model := $.DMMF.Datamodel.Models }}
 	{{ $name := $model.Name.GoLowerCase }}

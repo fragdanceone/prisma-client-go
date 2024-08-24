@@ -1,7 +1,7 @@
 package transform
 
 import (
-	"github.com/fragdance1/prisma-client-go/generator/types"
+	"github.com/fragdanceone/prisma-client-go/generator/types"
 )
 
 // Method defines the method for the virtual types method
