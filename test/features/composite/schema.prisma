@@ -1,0 +1,21 @@
+datasource db {
+  provider = "sqlite"
+  url      = env("__REPLACE__")
+}
+
+generator db {
+  provider          = "go run github.com/fragdance1/prisma-client-go"
+  output            = "."
+  disableGoBinaries = true
+  package           = "composite"
+  previewFeatures = ["mongoDb"]
+}
+
+model User {
+  firstName  String
+  middleName String
+  lastName   String
+
+  @@id([firstName, lastName])
+  @@unique([firstName, middleName, lastName])
+}
